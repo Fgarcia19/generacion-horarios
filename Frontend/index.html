@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Horario Hospital</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <h1>Horario Hospital</h1>
+    <div id="upload-container">
+      <label for="file-input" class="file-upload-label">Subir archivo</label>
+      <input type="file" id="file-input" accept=".xlsx" />
+      <div id="file-content" style="display: none"></div>
+    </div>
+
+    <div id="modal">
+      <div id="modal-content"></div>
+      <span class="close">&times;</span>
+    </div>
+
+    <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
